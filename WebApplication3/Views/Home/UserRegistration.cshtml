@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "UserRegistration";
+}
+<body>
+<h2>UserRegistration</h2>
+
+<p>Please enter the following information to sign up.</p>
+
+
+    <form name="Reg" onsubmit="return Summary()" action="Summary" method="get">
+
+        First name:<br>
+        <input type="text" name="FirstName">
+        <br>
+        Email:<br>
+        <input type="text" name="Email">
+        <br>
+        Are you a Male or a Female or Something Else? <br>
+        <input type="radio" name="gender" value="Male" checked Male /> Male <br>
+        <input type="radio" name="gender" value="Female" /> Female<br>
+        <input type="radio" name="gender" value="Other" /> Something else<br>
+    
+        <br><br>
+        <input type="submit" value="Submit">
+    </form> 
+
+</body>
+
